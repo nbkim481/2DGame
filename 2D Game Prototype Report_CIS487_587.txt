@@ -1,0 +1,37 @@
+﻿Design and Prototype Package 
+In Neighborhood Nightmare, you play as a trick-or-treater who is just trying to get some candy. Unfortunately, you stumbled upon the spookiest part of town and are now surrounded by ghosts! Luckily, you have great throwing aim and can use the candy in your bag to throw and dispel the ghosts. 
+
+
+The intended player experience is a quick and fun top-down shooter game that is beatable within 10 minutes. The player will spend most of their time walking around and shooting ghosts. As they progress through the neighborhood, ghosts will become more aggressive and spawn more often, making it more difficult at the end to run away. In the end, the player’s main objective is to escape the neighborhood alive, using their candy to help keep ghosts from killing them. The basic success condition is walking the player over to the end of the neighborhood alive. The failure condition is allowing too many ghosts to touch the player and dying. 
+
+
+The player is controlled with the W, A, S, and D keys on the keyboard, and players use the mouse to aim and click to shoot candy at ghosts. 
+
+
+Must-have features
+* Player
+   * Aim with mouse; left-click to shoot
+   * A health bar or life counter
+* Enemies
+   * Ghosts floating in from all directions towards the player 
+   * If touching the player, ghosts must drain the player’s health
+   * If shot with candy, ghosts will disappear
+* Environment
+   * Maze-like neighborhood
+   * Candy will spawn on the street for players to collect more ammunition
+
+
+Nice-to-Have Features
+* Player
+   * Throwing candy animation
+   * Hearts health bar instead of number onscreen
+* Enemies
+   * Other enemies will come out of houses and chase the player besides ghosts
+* Environment
+   * More variation in details such as houses in the neighborhood and candy
+   * Sound effects
+   * Introductory cutscene
+   * Refined ending screen
+
+
+Currently, the prototype demonstrates the main gameplay loop, where the player walks through the neighborhood and tries to escape. The player is able to move and click to shoot candy at enemies. There are some obstacles that serve as the border that keeps the player within the bounds of the game. What still needs to be implemented are sound effects, improved UI, and improved level design.
